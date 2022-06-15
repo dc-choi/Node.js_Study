@@ -11,7 +11,6 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 import dotenv from 'dotenv';
-import { fileURLToPath } from 'url';
 
 import { onError, notFound, serverError } from './middleware/error.js';
 import indexRouter from './routes/index.js';
@@ -21,7 +20,8 @@ const app = express();
 const port = process.env.PORT;
 // 기존 CJS와 다르게 __filename과 __dirname이 없어서 따로 생성해줘야함.
 // 참고: https://velog.io/@suyeonpi/Node.js-dirname-is-not-defined-ES6
-const __filename = fileURLToPath(import.meta.url);
+// 22.06.15 수정 (현재 위치의 절대경로를 불러온다.)
+const __filename = path.resolve();
 const __dirname = path.dirname(__filename);
 
 app.use(logger('dev'));

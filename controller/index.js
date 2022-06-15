@@ -29,7 +29,7 @@ indexController.detail = async(req, res, next) => {
 indexController.write = async(req, res, next) => {
 	try {
 		const { code, name, age, contact } = req.body;
-		const result = await studentRedo.write(code, name, age, contact, groupCode);
+		const result = await studentRedo.write(code, name, age, contact);
 		res.send(result);
 	} catch (error) {
 		next(error);

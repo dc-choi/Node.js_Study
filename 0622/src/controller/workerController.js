@@ -28,8 +28,8 @@ workerController.detail = async(req, res, next) => {
 
 workerController.write = async(req, res, next) => {
 	try {
-		const { id } = req.body;
-		const result = await workerService.write(id);
+		const { name } = req.body;
+		const result = await workerService.write(name);
 		res.send(result);
 	} catch (error) {
 		next(error);

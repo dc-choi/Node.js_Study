@@ -14,10 +14,10 @@ terminal.detail = async(id) => {
 	return result;
 }
 
-terminal.write = async(id, supervisorId) => {
+terminal.write = async(name, supervisorId) => {
 	let sql = `INSERT INTO terminal(terminal_name, supervisor_supervisor_id) `;
 	sql += `VALUES(?, ?)`;
-	const result = await query(sql, [id, supervisorId]);
+	const result = await query(sql, [name, supervisorId]);
 	return result;
 }
 

@@ -39,6 +39,7 @@
 	2. 500 에러를 뱉어내지 않는 에러처리 (500 에러를 지양하라고 함.)
 
 3. 구현 내용
-	1. 
+	1. ![에러처리 미들웨어](https://github.com/dc-choi/Node.js_Study/blob/master/img/%EC%97%90%EB%9F%AC%EC%B2%98%EB%A6%AC%20%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4.PNG)
+	2. ![컨트롤러 에러처리](https://github.com/dc-choi/Node.js_Study/blob/master/img/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%20%EC%97%90%EB%9F%AC%EC%B2%98%EB%A6%AC.PNG) 
 
 </details>

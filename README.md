@@ -31,15 +31,16 @@
 <summary>자세히 보기</summary>
 
 1. 과제 요구사항
-	1. 클린 아키텍쳐에 대해서 알아오기
-	2. 에러 처리
+	1. 에러 처리
+	2. 클린 아키텍쳐에 대해서 알아오기
 
 2. 필요한 기능
-	1. 적절한 아키텍쳐
-	2. 500 에러를 뱉어내지 않는 에러처리 (500 에러를 지양하라고 함.)
+	1. 500 에러를 뱉어내지 않는 에러처리 (500 에러를 지양하라고 함.)
+	2. 적절한 아키텍쳐
 
 3. 구현 내용
 	1. ![에러처리 미들웨어](https://github.com/dc-choi/Node.js_Study/blob/master/img/%EC%97%90%EB%9F%AC%EC%B2%98%EB%A6%AC%20%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4.PNG)
-	2. ![컨트롤러 에러처리](https://github.com/dc-choi/Node.js_Study/blob/master/img/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%20%EC%97%90%EB%9F%AC%EC%B2%98%EB%A6%AC.PNG) 
+	2. ![컨트롤러 에러처리](https://github.com/dc-choi/Node.js_Study/blob/master/img/%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%20%EC%97%90%EB%9F%AC%EC%B2%98%EB%A6%AC.PNG)
+	3. 결론: 클린 아키텍쳐를 구현하기 위해서는 어느정도 구조를 정형화해주는 프레임워크로 넘어가는것이 맞다고 생각함. 그 이유는... 만나서 설명
 
 </details>

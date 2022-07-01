@@ -5,7 +5,7 @@
 
 import terminalService from "../service/terminalService.js";
 import logService from "../service/logService.js";
-import { getSuccessResponse, getErrorResponse } from '../middleware/error.js';
+import { getSuccessResponse, getCreateResponse, getNoContentResponse, getErrorResponse } from '../middleware/error.js';
 
 const terminalController = {};
 

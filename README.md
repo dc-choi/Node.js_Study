@@ -1,5 +1,30 @@
 # Node.js Study
 
+## 소개
+* 참여 인원: donchoi, euhong, sangjeon
+* 스터디 목표: Node.js 및 백엔드 전반적인 지식에 대해 공부 후 프론트와 협업하여 프로젝트 진행
+* 빔 프로젝트로 서로의 코드를 보며 리뷰하는 식으로 진행
+
+## 6월 15일
+
+<details>
+<summary>자세히 보기</summary>
+
+1. 과제 요구사항
+	1. 여러 DB의 장단점 파악해 프로젝트에 따른 DB 선택
+	2. restful api를 적용한 게시판 api 개발
+
+2. 필요한 기능
+	1. Create
+	2. Read
+	3. Update
+	4. Delete
+
+3. 구현 내용
+	1. 자세한 내용은 코드 참고...
+
+</details>
+
 ## 6월 22일
 
 <details>

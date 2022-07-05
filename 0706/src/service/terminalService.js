@@ -61,8 +61,8 @@ terminalService.remove = async (terminalId) => {
 
 terminalService.entry = async(workerId, terminalId) => {
 	try {
-		let str;
 		const result = await terminalRepo.entry(workerId, terminalId);
+		let str;
 		
 		if (result.length > 0) {
 			str = 'SUCCESS';

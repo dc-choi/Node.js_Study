@@ -59,7 +59,7 @@
 	1. 코드리뷰 후 개선사항
 		1. 변수 선언 위치 통일성 필요
 		2. 여러 케이스에 대한 예외처리 추가
-		3. .env sample 작성
+		3. envSample 작성
 		4. orm 도입하기
 		5. 터미널 진입, 근로자 승인에 대한 로직 작성
 		6. 쓰이지 않는 함수 제거
@@ -67,6 +67,10 @@
 	3. 로깅 라이브러리 적용
 
 3. 구현 내용
-	1. 
+	1. 여러 케이스에 대한 400, 404, 409 예외처리 추가
+	2. envSample 작성
+	3. 쓰이지 않는 함수 제거
+	4. [API 명세서 작성](https://github.com/dc-choi/Node.js_Study/wiki/0706-API-Document)
+	5. [로깅 라이브러리 장단점](https://songjang.tistory.com/14)
 
 </details>

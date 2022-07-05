@@ -62,7 +62,6 @@ workerService.remove = async (workerId) => {
 workerService.approval = async(workerId, terminalId) => {
 	try {
 		const check = await workerRepo.checkAllow(workerId, terminalId);
-		console.log(check);
 		if (check.length > 0) throw new ApiError(apiCode.CONFLICT, 'CONFLICT');
 		const result = await workerRepo.approval(workerId, terminalId);
 		return result;

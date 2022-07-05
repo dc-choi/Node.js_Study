@@ -12,7 +12,6 @@ import {
 	getNoContentResponse,
 	getBadRequestResponse,
 	getNotFoundResponse,
-	getConflictResponse,
 	getErrorResponse,
 	ApiError
 } from '../middleware/error.js';

@@ -13,6 +13,7 @@ import logger from 'morgan';
 import dotenv from 'dotenv';
 
 import { onError } from './middleware/error.js';
+import { getLogger } from './middleware/logger.js';
 import indexRouter from './routes/index.js';
 
 dotenv.config();
@@ -24,7 +25,10 @@ const port = process.env.PORT;
 const __filename = path.resolve();
 const __dirname = path.dirname(__filename);
 
-app.use(logger('dev'));
+// 로그를 생성하기 위해 스트림 생성
+const { stream } = getLogger(__dirname);
+
+app.use(logger('combined', { stream }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());

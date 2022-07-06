@@ -97,5 +97,17 @@
 	3. 쓰이지 않는 함수 제거
 	4. [API 명세서 작성](https://github.com/dc-choi/Node.js_Study/wiki/0706-API-Document)
 	5. [로깅 라이브러리 장단점](https://songjang.tistory.com/14)
+	6. 204 No content에 관하여...
+		* 일단 결론적으로 이야기하면 응답하는 본문이 없으면 204 응답이 맞고 응답하는 본문이 있다면 200 응답이 맞음.
+		* 명령을 수행했고 응답 메시지가 이후의 상태를 설명하는 경우 200 (OK) 상태 코드.
+		* 명령을 수행했고 더 이상 제공할 정보가 없는 경우 204 (No Content) 상태 코드.
+		* REST API Tutorial에서도 둘중 어떤 것을 써도 상관없다고 함.
+		---
+		참고
+		* [REST API HTTP별 요청 메서드](https://www.restapitutorial.com/lessons/httpmethods.html)
+		* [200 응답코드](https://developer.mozilla.org/ko/docs/Web/HTTP/Status/200)
+		* [204 응답코드](https://developer.mozilla.org/ko/docs/Web/HTTP/Status/204)
+		* [PUT 메서드](https://developer.mozilla.org/ko/docs/Web/HTTP/Methods/PUT)
+		* [DELETE 메서드](https://developer.mozilla.org/ko/docs/Web/HTTP/Methods/DELETE)
 
 </details>
